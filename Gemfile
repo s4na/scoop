@@ -57,9 +57,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Not default
 
-gem "slim", "~> 4.1"
+gem "slim"
 
 group :development do
-  gem "slim-rails", "~> 3.2"
-  gem "html2slim", "~> 0.2.0"
+  gem "slim-rails"
+  gem "html2slim"
 end
