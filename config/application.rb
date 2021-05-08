@@ -20,5 +20,12 @@ module Scoop
     # config.eager_load_paths << Rails.root.join("extras")
 
     config.generators.template_engine = :slim
+    config.generators do |g|
+      g.test_framework :rspec,
+                       view_specs: false,
+                       helper_specs: false,
+                       request_specs: true,
+                       system_specs: true
+    end
   end
 end

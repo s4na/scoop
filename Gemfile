@@ -60,3 +60,8 @@ group :development do
   gem "slim-rails"
   gem "html2slim"
 end
+
+group :development, :test do
+  gem "rspec-rails"
+  gem "factory_bot_rails"
+end
